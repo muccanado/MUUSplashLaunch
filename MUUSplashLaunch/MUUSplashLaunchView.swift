@@ -40,7 +40,7 @@ public class MUUSplashLaunchView: UIView {
             self.downScaleAnimation()
         }
         
-        splashView.backgroundColor = UIColor.clear//UIColor(red: 0/255, green: 172/255, blue: 237/255, alpha: 1.0)
+        splashView.backgroundColor = UIColor(red: 0/255, green: 172/255, blue: 237/255, alpha: 1.0)
         addSubview(splashView)
         splashView.frame = CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height)
         splashImage.contentMode = .scaleAspectFit
