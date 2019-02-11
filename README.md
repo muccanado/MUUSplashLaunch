@@ -1,6 +1,7 @@
 # MUUSplashLaunch
 
 A launch screen like Twitter App
+![Alt text](https://github.com/muccanado/MUUSplashLaunch/blob/master/MUUSplashLaunch.png?raw=true "MUUSplashLaunch")
 
 ## Getting Started
 From Sketch make a PDF from vector icon you prefer,export name it **"splashLogo.pdf"** and place inside your project **.xcassets** file under 2x resolution, then inside your root project viewcontroller import **MUUSplashLaunch** and place an UIImageView with **"splashLogo"** inside **"LaunchScreen.storyboard"** with x/y center and fixed size of 70x70px
