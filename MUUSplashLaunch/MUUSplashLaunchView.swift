@@ -36,7 +36,7 @@ public class MUUSplashLaunchView: UIView {
     
     private func setUpView() {
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
             self.downScaleAnimation()
         }
         
